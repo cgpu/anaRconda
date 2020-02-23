@@ -1,0 +1,24 @@
+Package: anaRconda
+Title: Translate R session information to conda metadata
+Version: 0.1
+Authors@R: 
+    person(given = "Christina",
+           family = "Chatzipantsiou",
+           role = c("aut", "cre"),
+           email = "chatzipantsiou@gmail.com")
+Description: Utility functions to capture, reformat and write package version into conda dependency files.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.0.2
+Imports: 
+    crayon,
+    stringr,
+    devtools,
+    data.table
+Suggests: 
+    rmarkdown,
+    knitr,
+    testthat (>= 2.1.0)
+VignetteBuilder: knitr

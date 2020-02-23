@@ -1,0 +1,21 @@
+---
+title: "Capture requirements from R into a conda ready metadata file"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{example}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(anaRconda)
+requirements_df <- anaRconda::capture_requirements(write = FALSE)
+requirements_df$conda_packages
+```

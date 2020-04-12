@@ -6,7 +6,7 @@ Authors@R:
            family = "Chatzipantsiou",
            role = c("aut", "cre"),
            email = "chatzipantsiou@gmail.com")
-Description: Utility functions to capture, reformat and write package version into conda dependency files.
+Description: Utility functions to capture, reformat and write package versions into conda dependency files.
 License: GPL-3
 Encoding: UTF-8
 LazyData: true

@@ -8,6 +8,8 @@ Authors@R:
            email = "chatzipantsiou@gmail.com")
 Description: Utility functions to capture, reformat and write package versions into conda dependency files.
 License: GPL-3
+URL: https://github.com/cgpu/anaRconda
+BugReports: https://github.com/cgpu/anaRconda/issues
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
